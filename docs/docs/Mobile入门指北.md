@@ -5,7 +5,7 @@ description: 2025 Mobile 春季招新指北
 theme: jekyll-theme-caymanqq
 ---
 
-# Mobile组2025年春招入门指北
+# Mobile组2025年秋招入门指北
 
 **Mobile，连接世界的触点！**
 

@@ -5,7 +5,7 @@ description: 2025 Web 春季招新指北
 theme: jekyll-theme-caymanqq
 ---
 
-# Web组2025年春招入门指北
+# Web组2025年秋招入门指北
 
 Web 有你想要的一切，如今我们的舞台拓展到桌面应用 (Electron)、移动 APP (React Native 或 Flutter等)， 而不是仅仅局限于网页。   
 

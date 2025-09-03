@@ -135,7 +135,7 @@ theme: jekyll-theme-caymanqq
 ](http://beej.us/guide/bgnet/)）
   - 尝试 `fork`，`exec` 等 Linux 系统调用的使用。
 
-# 样题：联创团队 2023 春招 Lab 组熬日测试
+# 样题：联创团队 2023 秋招 Lab 组熬日测试
 
 欢迎来到联创团队 Lab 组熬测！熬测时间：13:00~22:00。
 
