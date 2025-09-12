@@ -39,6 +39,7 @@ theme: jekyll-theme-caymanqq
 **建议你在面试之前对以下内容有基本的了解**
 
 - C语言。推荐 ***《C Primer Plus》*** （总之，C 语言是大一要学的课）
+- 可能还包括 C++，包括 STL 以及其背后的各类算法。
 - Linux（剧透：熬测须在 Linux 环境下进行）
     - 安装任意 Linux 发行版。实体机虚拟机皆可。
     - 学习使用 Linux 包管理、掌握基本的命令（文件操作、进程管理等）
@@ -49,12 +50,13 @@ theme: jekyll-theme-caymanqq
 
 - **下面这些蓝色的东西叫做链接，可以用鼠标点。**
 - 请主动对你不清楚的所有内容进行资料查询：
-    - 国内可以直接使用的大语言模型包括 Qwen / Kimi / Doubao。
+    - 国内可以直接使用的大语言模型包括 Qwen / Kimi / Doubao 等，如果你有能力使用 ChatGPT / Gemini / Grok / Claude 那当然是更好的。**（你最好有能力）**
     - 请主动使用正规搜索引擎，比如 [Microsoft Bing](https://www.bing.com/)。
-- 可以使用 WSL 下的 Debian，[安装指南](https://learn.microsoft.com/zh-cn/windows/wsl/install)，想使用 Ubuntu 当然也行。也可以裸机安装（注意！可能有一定风险）。二者都可以参考 [Debian Wiki](https://wiki.debian.org/) 或者任何网上的资料。
-- 对于 Linux 基本操作，有大量参考资料可用，请主动使用搜索引擎或者大语言模型寻找。最常见的有[鸟哥的 Linux 私房菜](https://linux.vbird.org/linux_basic_train/rockylinux9/)，以及Linux下的 `man` 和 `tldr` 命令。
+- 可以使用 WSL 下的 Debian，[安装指南](https://learn.microsoft.com/zh-cn/windows/wsl/install)，想使用 Ubuntu / Arch / 甚至 FreeBSD 当然也行。也可以裸机安装（注意！可能有一定风险）。二者都可以参考 [Debian Docs](https://www.debian.org/doc/) 或者任何网上的资料。
+- 对于 Linux 基本操作，有大量参考资料可用，请主动使用搜索引擎或者大语言模型寻找。最常见的有 [Debian Docs](https://www.debian.org/doc/)、[鸟哥的 Linux 私房菜（有点旧了）](https://linux.vbird.org/linux_basic_train/rockylinux9/)，以及Linux下的 `man` 和 `tldr` 命令。
 - 一般认为小白的最佳文本编辑器为 [VSCode](https://code.visualstudio.com/)，可以[在Windows下安装后连接WSL使用](https://code.visualstudio.com/docs/cpp/config-wsl)。你当然也可以使用 vim 或者 neovim，教程是安装vim后linux下的`vimtutor`命令。
 - CS:APP可以在学校图书馆或者大部分网上购物平台（当当等）合法获得。
+- 可以尝试一些 vibe coding，包括 Github Copilot / Gemini cli / claude code / kilo code + openrouter 等。
 
 ## Advanced（More and Better）
 
