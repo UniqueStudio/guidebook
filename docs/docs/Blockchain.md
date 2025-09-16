@@ -48,12 +48,11 @@ Blockchain 组尚未、但即将成为一个独立组别。同时也作为团队
 
 Blockchain 组只是起点，未来将由你定义！ 🚀
 
-# 区块链与加密货币入门指南
-
-## 基础篇：区块链与加密货币基础
+# 学习指南
 
 ### 学习目标
 
+- 理解经济和金融原理
 - 理解区块链基本原理
 - 掌握加密货币基础知识
 - 了解DeFi生态系统
@@ -63,21 +62,24 @@ Blockchain 组只是起点，未来将由你定义！ 🚀
 
 ### 1. 入门
 
-- **视频教程**: [3Blue1Brown的"比特币和区块链是如何工作的"](https://www.youtube.com/watch?v=bBC-nXj3Ng4) - 通过可视化方式解释区块链的基本原理
+- **视频教程**: [3Blue1Brown的”比特币和区块链是如何工作的”](https://www.youtube.com/watch?v=bBC-nXj3Ng4) - 通过可视化方式解释区块链的基本原理
+- 指南: 区块链技术指南 - 可以囫囵吞枣，超级账本及之后的部分不需要阅读 https://yeasy.gitbook.io/blockchain_guide/
 - **在线课程**: [Coursera - 区块链基础知识](https://www.coursera.org/learn/blockchain-basics) & [PKU学生区块链中心WEB3新人公开课](https://space.bilibili.com/586660955/lists/894352)
-- **书籍**: 《精通比特币》(Mastering Bitcoin) - Andreas Antonopoulos著
-- **指南**: [区块链技术指南](https://yeasy.gitbook.io/blockchain_guide/) - 完整的中文区块链入门资料
-- [DeFi 工具扫盲](https://www.youtube.com/watch?v=HNDkNXD0m20) 
+- [DeFi 工具扫盲](https://www.youtube.com/watch?v=HNDkNXD0m20)
 
-### 2. 白皮书
+### 2. 核心能力
 
-- **官方文档**: [比特币白皮书](https://bitcoin.org/bitcoin.pdf) - 了解比特币的设计理念
-- **视频：**[Whiteboard Crypto](https://www.youtube.com/c/WhiteboardCrypto) - 简化的加密货币教学
+blockchian 组的 csapp
 
-### 4. 实践项目
+- [比特币白皮书](https://bitcoin.org/bitcoin.pdf)
+- 桥水 - 经济机器是如何运行的
+- 曼昆 经济学原理 微观宏观两册
+- 上海人民出版社<交易和交易所> 什么人，为什么交易？
+
+### 动手熟悉
 
 1. **创建和管理加密钱包**
-    - OKX 钱包  / Metamask / ...
+    - OKX 钱包 / Metamask / …
     - 学习私钥管理和安全
     - 在测试网络获取测试代币
 2. **体验基本的区块链交互**
@@ -85,18 +87,16 @@ Blockchain 组只是起点，未来将由你定义！ 🚀
     - 使用区块浏览器如[Etherscan](https://etherscan.io/)查看交易
     - 参与简单的代币交换(使用Uniswap测试网)
 
-## 进阶篇：智能合约与DeFi
-
-### 核心学习资源
+## 扩展阅读 智能合约与DeFi
 
 ### 1. 智能合约开发
 
-#### ETH
+### ETH
 
 - [Solidity文档](https://docs.soliditylang.org/) - 智能合约的编程语言
 - **实践指南**: [CryptoZombies](https://cryptozombies.io/) - Solidity 互动式智能合约开发课程
 
-#### Solana
+### Solana
 
 - Solana 官方文档
 
@@ -112,9 +112,11 @@ Blockchain 组只是起点，未来将由你定义！ 🚀
 - **学习资源**: [精通链上数据分析](https://github.com/SixdegreeLab/MasteringChainAnalytics) - 从入门到高级的链上数据分析教程
 - **分析平台**: [Dune Analytics](https://dune.com/) - 区块链数据可视化平台
 
-## 从零到无穷大
+## 扩展阅读 交易轶事
 
-### 核心学习资源
+股票大作手回忆录 - 一百年前的美股市场交易故事，和现在的crypto市场有很多相似之处
+
+## 扩展阅读 MEV
 
 ### 1. MEV
 
@@ -126,8 +128,7 @@ Blockchain 组只是起点，未来将由你定义！ 🚀
 - [ApeBot](https://github.com/duckdegen/apebot) 已失效的 new listing snipper
 - [Hummingbot](https://hummingbot.io/)
 
-
-### 3. 实践项目
+### 实践项目 / 方向
 
 1. **信息搜集**
     - 新闻爬取，新闻交易
@@ -153,14 +154,19 @@ Blockchain 组只是起点，未来将由你定义！ 🚀
     - [DeFi Llama](https://defillama.com/) - DeFi协议跟踪与分析
     - [Messari](https://messari.io/) - 同上
     - geckoterminal - DEX 数据查看器
-    - solscan, etherscan ...
+    - solscan, etherscan …
 
 ## 持续学习资源
 
-### 新闻
+### 资讯类
 
-- [The Block](https://www.theblock.co/) - 区块链新闻
+- [The Block](https://www.theblock.co/)
+- Coindesk
+- 吴说区块链
+- Web3 101播客
+- Defillama
+- Crypto fund raising
 - 推特
-  - AggrNews
-  - BWENews (方程式新闻)
-  - ...
+    - AggrNews
+    - BWENews (方程式新闻)
+    - …
