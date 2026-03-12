@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Blockchain 组
-description: 2025 春季招新Blockchain 组
+description: 2026 春招 Blockchain 组
 theme: jekyll-theme-caymanqq
 ---
 
