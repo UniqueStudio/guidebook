@@ -1,17 +1,17 @@
 ---
 layout: default
 title: Web
-description: 2025 Web 春季招新指北
+description: 2026 Web 春招指北
 theme: jekyll-theme-caymanqq
 ---
 
-# Web组2025年秋招入门指北
+# Web组2026春招入门指北
 
 Web 有你想要的一切，如今我们的舞台拓展到桌面应用 (Electron)、移动 APP (React Native 或 Flutter等)， 而不是仅仅局限于网页。   
 
 联创团队的 Web 组的培养计划包括基础的前端和后端，而深入的学习需要选择其中一个方向。   
 
-这可能是 2025 年入门 Web 的最佳学习路线：[Developer Roadmaps](https://roadmap.sh/)，如果你对这一大堆专业名词感到畏惧， 可以先看下面的：   
+这可能是面向 2026 春招入门 Web 的最佳学习路线：[Developer Roadmaps](https://roadmap.sh/)，如果你对这一大堆专业名词感到畏惧， 可以先看下面的：   
 
 ### 计算机入门
 

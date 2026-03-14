@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Game
-description: 2025 Game 春季招新指北
+description: 2026 Game 春招指北
 theme: jekyll-theme-caymanqq
 ---
 
-# Game组 2025 秋招入门指北
+# Game组 2026春招入门指北
 
 ## 程序方向
 ### 入门

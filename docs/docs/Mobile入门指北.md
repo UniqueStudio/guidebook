@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Mobile
-description: 2025 Mobile 春季招新指北
+description: 2026 Mobile 春招指北
 theme: jekyll-theme-caymanqq
 ---
 
-# Mobile组2025年秋招入门指北
+# Mobile组2026春招入门指北
 
 **Mobile，连接世界的触点！**
 

@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Lab
-description: 2025 Lab 春季招新指北
+description: 2026 Lab 春招指北
 theme: jekyll-theme-caymanqq
 ---
 
-# 联创团队 Lab 组 2025 春季招新入门指南
+# 联创团队 Lab 组 2026春招入门指南
 
 如果你感觉你对计算机科学很感兴趣，又不完全是其他组的范畴，**请来 Lab 组**！
 
