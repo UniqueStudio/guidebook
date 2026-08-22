@@ -21,13 +21,13 @@ Mobile 组的学习计划从移动开发的基础入手，涵盖从界面设计�
 
 ## 前言
 
-自2008年诞生以来，Android 至今已走过十几个春秋。Android 操作系统运行在超过70% 的智能手机上，其开放包容的生态系统不断发展壮大，支持着全球数十亿用户的数字生活。
+自 2008 年诞生以来，Android 至今已走过十几个春秋。Android 操作系统运行在超过 70% 的智能手机及广阔的 IoT、车载与穿戴设备上，其开放包容的生态系统不断发展壮大，支持着全球数十亿用户的数字生活。
 
-在 Mobile 组， 我们可以以 Android 系统为基础，实现自己的创意，探索应用和系统的方方面面。从 Android 应用原生开发到跨平台框架的使用，从音视频处理再到系统甚至硬件底层的优化开发，我们不会用条条框框限制你的探索与创造。加入 Mobile 组，大家一起 Make Android Great Again！
+在 Mobile 组，你可以基于现代 Android 技术栈实现极富创意的应用。从 **Jetpack Compose 声明式 UI** 到 **Kotlin Multiplatform (KMP)** 与 **Compose Multiplatform (CMP)** 的跨平台实践，从音视频处理再到系统甚至硬件底层的优化开发，我们不会用条条框框限制你的探索与创造。加入 Mobile 组，大家一起 Make Android Great Again！
 
 ## 开发环境
 
-[IDEA](https://www.jetbrains.com/idea/download/)，Java/Kotlin 开发指定 IDE， IDEA 分为 Community 版（社区版，免费使用）和 Ultimate 版（收费，但可以使用学生身份免费申请），学习阶段使用 Community 版即可
+[IntelliJ IDEA](https://www.jetbrains.com/idea/download/)，Java/Kotlin 开发指定 IDE， IDEA 分为 Community 版（社区版，免费使用）和 Ultimate 版（收费，但可以使用学生身份免费申请），学习阶段使用 Community 版即可
 
 [Android Studio](https://developer.android.com/studio)，Android 开发唯一指定 IDE
 
@@ -41,11 +41,11 @@ Mobile 组的学习计划从移动开发的基础入手，涵盖从界面设计�
 
 ### C
 
-无论沿着何种技术路线学习，熟练掌握**C语言**都是一项不成文的要求，打好扎实的C语言功底对于学习其它编程语言很有帮助。
+无论沿着何种技术路线学习，掌握**C语言**都是一项不成文的要求，打好扎实的C语言功底对于学习其它编程语言很有帮助，扎实的内存模型与指针理解对于掌握底层原理和 JNI/NDK 开发也大有裨益。
 
 ### Java
 
-对于 Android 开发初学者，推荐先学习 Java 编程语言。教程上推荐《Java 核心技术 卷一》，重点关注前六章，掌握基本的 Java 语法，初步建立起面向对象程序设计的基本思想。
+Java 是 Android 历史与生态的基石。初学者可通过 Java 建立扎实的面向对象（OOP）概念。教程上推荐《Java 核心技术 卷一》，重点关注前六章，掌握基本的 Java 语法，初步建立起面向对象程序设计的基本思想。
 
 - **重点关注**：基本语法（如函数定义、流程控制语句），面向对象（封装，继承，多态），容器类的使用（List, Set, Map 的使用）
 
@@ -53,11 +53,22 @@ Mobile 组的学习计划从移动开发的基础入手，涵盖从界面设计�
 
 ### Kotlin
 
-如果你已经掌握了 Java 的基础知识，可以尝试直接学习 Kotlin 编程语言。教程上，推荐结合《第一行代码》第三版（或是 [Kotlin 官方文档](https://kotlinlang.org/docs)），在实践中学习 Kotlin 的语言设计。
+如果你已经掌握了 Java 的基础知识，可以尝试直接学习 Kotlin 编程语言。Kotlin 是目前 Android 官方唯一首选开发语言（Kotlin-First）。它不仅空安全、语法简洁、表达力强，更支持多平台与现代异步并发。
 
-- **重点关注**：变量声明，when 语句， 空安全语法（?. 和 ?:），数据类 data class，单例 object，扩展函数
+- **核心重点**：
+  - 基础语法、空安全机制（`?.`, `?:`, `!!`）
+  - 数据类（`data class`）、密封类/接口（`sealed class/interface`）、单例（`object`）
+  - 扩展函数、高阶函数与 Lambda 表达式
 
-- **进阶**：了解 Kotlin 协程、泛型（泛型约束与协变逆变），内联函数等高级特性，以及 Kotlin Multiplatform 技术
+- **进阶掌握**：
+  - **Kotlin 协程（Coroutines）**：挂起函数 `suspend`、`CoroutineScope`、调度器 Dispatchers
+  - **异步数据流 Flow**：`StateFlow`、`SharedFlow` 与响应式编程
+  - 泛型型变（`in` / `out` 协变与逆变）、内联函数（`inline`, `reified`）
+
+- **推荐资料**：
+  - [Kotlin 官方文档](https://kotlinlang.org/docs/home.html)
+  - [Kotlin 协程官方指南](https://kotlinlang.org/docs/coroutines-overview.html)
+  - 《第一行代码》第三版
 
 ## Git
 
@@ -81,9 +92,20 @@ Mobile 组的学习计划从移动开发的基础入手，涵盖从界面设计�
 
 ## 开发入门
 
-《Android 第一行代码》：使用 Java 语言学习安卓开发的同学可以选择第二版，使用或者想学习 Kotlin 开发安卓的同学选择第三版。
+Android 的开发技术和生态非常庞大，不必在一开始就试图掌握所有内容。建议先完成编程语言与 Git 的基础学习，再选择一套现代 Android 技术栈开始实践。
 
-推荐初学者先从 Android 传统的 View + XML 布局方式学起，它相对易学且易于理解，学有余力的同学可以了解 Android 官方目前最新的 UI 框架 [Jetpack Compose](https://developer.android.com/jetpack/compose)
+目前 Android 官方推荐使用 Kotlin 作为首选开发语言，并逐步采用 Jetpack Compose 构建现代声明式 UI。
+
+对于初学者，我们推荐从 Kotlin + Jetpack Compose 开始学习，在实践中逐步理解 Android 的基础概念、UI 状态管理、网络通信与数据存储等内容。
+
+同时，传统的 View + XML 体系仍然广泛存在于大量成熟项目中，因此也建议在后续学习中了解 Activity、Fragment、View 与 XML 布局等传统 Android 开发方式，以便阅读和维护现有项目。
+
+推荐资料：
+
+- 《第一行代码》第三版
+- [Google 官方课程：Android Basics with Compose](https://developer.android.com/courses/android-basics-compose/course)
+- [Jetpack Compose 使用入门 | Android Developers](https://developer.android.com/develop/ui/compose/documentation?hl=zh-cn)
+
 
 ## Linux
 
@@ -145,7 +167,7 @@ Xcode 是 iOS 开发的专用 IDE，它包含了一个 iOS App 从开发到调�
 
 ### C
 
-无论沿着何种技术路线学习，熟练掌握**C语言**都是一项不成文的要求，打好扎实的C语言功底对于学习其它编程语言很有帮助。
+无论沿着何种技术路线学习，掌握**C语言**都是一项不成文的要求，打好扎实的C语言功底对于学习其它编程语言很有帮助。
 
 ### Objective-C / Objective-C++
 
@@ -217,4 +239,4 @@ SwiftUI 是 Apple 近年来新开发并开始推广的全新框架，且自 iOS1
 
 [Apple Tutorial(SwiftUI)](https://developer.apple.com/tutorials/app-dev-training/#swiftui-essentials)
 
-Tip: 目前还是推荐优先学习 UIKit，因为 SwiftUI 还是一个在细节上不够成熟、没有足够能力的框架。
+Tip: 对于新项目和 iOS 初学者，建议优先学习 SwiftUI，理解声明式 UI、状态驱动和现代 Apple 平台开发方式。同时，UIKit 仍然是 iOS 生态的重要组成部分，大量成熟项目仍在使用，因此建议掌握 UIKit 的基础概念，并能够理解和维护 UIKit 代码。
