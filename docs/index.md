@@ -40,7 +40,7 @@ description: "「联众人之志，创非凡之事」"
     <div class="info-content">
       <h4>在线报名</h4>
       <p>前往join端报名</p>
-      <a href="https://join2024.hustunique.com/" class="info-btn primary-btn" target="_blank">立即报名</a>
+      <a href="https://join.hustunique.com/" class="info-btn primary-btn" target="_blank">立即报名</a>
     </div>
   </div>
 </div>
@@ -59,7 +59,7 @@ description: "「联众人之志，创非凡之事」"
 - Lab 组
 - Mobile 组
 - PM 组
-- Web 组
+- Web/Agent 组
 - Blockchain 组
 
 ## 各组入门指南
@@ -71,7 +71,7 @@ description: "「联众人之志，创非凡之事」"
   <a class="group-box" href="/docs/Lab入门指北">Lab</a>
   <a class="group-box" href="/docs/Mobile入门指北">Mobile</a>
   <a class="group-box" href="/docs/PM入门指北">PM</a>
-  <a class="group-box" href="/docs/Web入门指北">Web</a>
+  <a class="group-box" href="/docs/Web入门指北">Web/Agent</a>
   <a class="group-box" href="/docs/Blockchain">Blockchain</a>
 </div>
 
