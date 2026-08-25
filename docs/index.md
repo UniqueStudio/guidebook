@@ -75,7 +75,7 @@ description: "「联众人之志，创非凡之事」"
   <a class="group-box" href="/docs/Lab入门指北">Lab</a>
   <a class="group-box" href="/docs/Mobile入门指北">Mobile</a>
   <a class="group-box" href="/docs/PM入门指北">PM</a>
-  <a class="group-box" href="/docs/Web入门指北">Web/Agent</a>
+  <a class="group-box" href="/docs/Web_Agent入门指北">Web/Agent</a>
   <a class="group-box" href="/docs/Blockchain">Blockchain</a>
 </div>
 
