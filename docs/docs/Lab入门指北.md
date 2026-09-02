@@ -1,17 +1,17 @@
 ---
 layout: default
 title: Lab
-description: 2026 Lab 春招指北
+description: 2026 Lab 秋招指北
 theme: jekyll-theme-caymanqq
 ---
 
-# 联创团队 Lab 组 2026春招入门指南
+# 联创团队 Lab 组 2026 秋招入门指南
 
 如果你感觉你对计算机科学很感兴趣，又不完全是其他组的范畴，**请来 Lab 组**！
 
 本指南为针对面试和熬测的大致学习方向。资料仅作参考，可自行选择合适的书籍、文档、课程资源等。
 
-**注意：本页面后半段含有往年熬测样题，包括熬测要求和4道题目，可能对于你准备熬测有一定程度的帮助。**
+**注意：本页面后半段含有往年熬测样题，包括熬测要求和 4 道题目，可能对于你准备熬测有一定程度的帮助。**
 
 ## Lab 组是做什么的？
 
@@ -50,13 +50,13 @@ theme: jekyll-theme-caymanqq
 
 - **下面这些蓝色的东西叫做链接，可以用鼠标点。**
 - 请主动对你不清楚的所有内容进行资料查询：
-    - 国内可以直接使用的大语言模型包括 Qwen / Kimi / Doubao 等，如果你有能力使用 ChatGPT / Gemini / Grok / Claude 那当然是更好的。**（你最好有能力）**
+    - 国内可以直接使用的大语言模型包括 Qwen / Kimi / DeepSeek 等，如果你有能力使用 ChatGPT / Gemini / Grok / Claude 那当然是更好的。**（你最好有能力）**
     - 请主动使用正规搜索引擎，比如 [Microsoft Bing](https://www.bing.com/)。
 - 可以使用 WSL 下的 Debian，[安装指南](https://learn.microsoft.com/zh-cn/windows/wsl/install)，想使用 Ubuntu / Arch / 甚至 FreeBSD 当然也行。也可以裸机安装（注意！可能有一定风险）。二者都可以参考 [Debian Docs](https://www.debian.org/doc/) 或者任何网上的资料。
 - 对于 Linux 基本操作，有大量参考资料可用，请主动使用搜索引擎或者大语言模型寻找。最常见的有 [Debian Docs](https://www.debian.org/doc/)、[鸟哥的 Linux 私房菜（有点旧了）](https://linux.vbird.org/linux_basic_train/rockylinux9/)，以及Linux下的 `man` 和 `tldr` 命令。
 - 一般认为小白的最佳文本编辑器为 [VSCode](https://code.visualstudio.com/)，可以[在Windows下安装后连接WSL使用](https://code.visualstudio.com/docs/cpp/config-wsl)。你当然也可以使用 vim 或者 neovim，教程是安装vim后linux下的`vimtutor`命令。
-- CS:APP可以在学校图书馆或者大部分网上购物平台（当当等）合法获得。
-- 可以尝试一些 vibe coding，包括 Github Copilot / Gemini cli / claude code / kilo code + openrouter 等。
+- CS:APP 可以在学校图书馆或者大部分网上购物平台（当当等）合法获得。
+- 可以尝试一些 Coding Agent，包括 Codex / DeepSeek Harness / Github Copilot / Gemini cli / claude code / kilo code + openrouter 等。
 
 ## Advanced（More and Better）
 
