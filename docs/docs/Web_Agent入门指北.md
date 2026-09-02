@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Web/Agent
-description: 2026 Web/Agent 春招指北
+description: 2026 Web/Agent 秋招指北
 theme: jekyll-theme-caymanqq
 ---
 
-# Web/Agent 组 2026 春招入门指北
+# Web/Agent 组入门指北
 
 Web 包括网页，也包括支撑它的服务和数据；Agent 也不等于一次模型调用。一个能交付的 AI Native 应用，通常要处理界面、服务端、数据库、模型、工具和部署，还要在使用中不断修正。Web/Agent 组不把前端、后端和 AI 当成互不相干的方向，希望大家从一个能运行的小项目开始，逐步看清软件系统的全貌。
 
