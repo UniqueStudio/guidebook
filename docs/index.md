@@ -29,7 +29,7 @@ description: "「联众人之志，创非凡之事」"
     <div class="info-content">
       <h4>招新推文</h4>
       <p>了解更多招新详情</p>
-      <a href="https://mp.weixin.qq.com/s/SPa6CZJ-tFW6sIgN4rpXAQ" class="info-btn" target="_blank">阅读推文</a>
+      <a href="https://mp.weixin.qq.com/s/54VfP-FuVsaxLTjznbKqUA" class="info-btn" target="_blank">阅读推文</a>
     </div>
   </div>
   
