@@ -1,17 +1,17 @@
 ---
 layout: default
 title: AI
-description: 2026 AI 春招指北
+description: 2026 AI 秋招指北
 theme: jekyll-theme-caymanqq
 ---
 
 # 写在前面
 
-AI的知识庞大且复杂，并且短期收益很低，**请务必想清楚为什么要学AI**。如果你只是想找到一份更好的工作，我们认为在这个AI的时代，反而是对AI做各种支持的前后客户端，PM等机会更多，更容易找到一份理想的工作，性价比更高。AI组的研究方向是底层算法、模型、训练方法等AI基建。AI门槛很高，通常需要硕士或者博士才能有不错的产出。其次，并不是只有AI组才能做AI，我们更关注底层算法。请务必思考清楚为什么要学AI为什么要报名AI组，否则你很有可能被刷掉。在这个最火的领域，如果你真心热爱并且决心钻研底层算法，你需要和全世界最顶尖的人才与资源竞争，请做好心理准备。
+AI的知识庞大且复杂，同时发展迅速，若只是作为基本工具使用，大语言模型的帮助以及丰富的生态将入门门槛打至骨折，但前沿运用与研究仍需要大量沉淀，**请务必想清楚为什么要学AI**。如果你只是想找到一份更好的工作，我们认为在这个AI的时代，反而是对AI做各种支持的前后客户端，PM等机会更多，更容易找到一份理想的工作，性价比更高。AI组的研究方向是底层算法、模型、训练方法等AI基建。当下，本科生也能发表AI论文，但不代表不需要基础与领域的深造。其次，并不是只有AI组才能做AI，我们更关注底层算法。请务必思考清楚为什么要学AI为什么要报名AI组，否则你很有可能被刷掉。在这个最火的领域，如果你真心热爱并且决心钻研底层算法，你需要和全世界最顶尖的人才与资源竞争，请做好心理准备。
 
 AI的细分路线非常多，我们非常建议你在了解深度学习的基本知识之后多在细分方向进行一些了解和探索。本指南会按照通用知识-细分方向及前沿来书写，你只需要了解你基础知识+感兴趣的方向（如果学有余力）即可。
 
-其次，现在大语言模型和AI工具非常发达，我们强烈推荐你使用LLM获取信息来提高信息获取的效率，使用AI编程工具来辅助编程。但请注意，不要过度依赖AI工具，**你至少需要理解AI生成的东西并有判断正误的能力**。下面是一些推荐的LLM和AI工具：[deepseek](http://chat.deepseek.com), [gemini](http://gimini.google.com), [grok](https://grok.com/?referrer=website), [chatgpt](http://chat.openai.com), [qwen](http://chat.qwen.ai), [copilot](https://github.com/features/copilot), [cline](https://cline.bot/)。以上工具都是免费的或者至少有免费的功能。
+其次，现在大语言模型和AI工具非常发达，我们强烈推荐你使用LLM获取信息来提高信息获取的效率，使用AI编程工具来辅助编程。但请注意，不要过度依赖AI工具，**你至少需要理解AI生成的东西并有判断正误的能力**。下面是一些推荐的LLM和AI工具：[deepseek](http://chat.deepseek.com),  [copilot](https://github.com/features/copilot), [claude](https://claude.ai/), [kimi](https://kimi.moonshot.cn/), [glm](https://chatglm.cn/main/alltoolsdetail), [codex](https://openai.com/index/introducing-codex/) [gemini](http://gimini.google.com), [grok](https://grok.com/?referrer=website), [chatgpt](http://chat.openai.com)。以上工具都是免费的或者至少有免费的功能，当然也可以付费解锁更强大的伙伴。
 
 # 基础知识
 
@@ -352,6 +352,37 @@ NLP是一个发展迅速且应用广泛的领域，从搜索引擎、智能助�
 
 语音的任务大致分为两大类，第一类是声音的理解，第二类是声音的重建。这延申出了ASR（语音识别）和TTS（语音合成）两个主要的大方向。此外，也有很多其他方向比如说SE（Speech Enhancement），SVS（Singing Voice Synthesis）等等。语音是一项非常古老的技术，甚至远早于互联网和AI。语音的教程相对较少，推荐[李宏毅老师的视频](https://www.bilibili.com/video/BV1E24y1R7Cj)，和[CMU WAVLab的视频](https://www.youtube.com/@wavlab3016/videos)。比较经典的论文有:[HiFi-GAN](https://arxiv.org/abs/2010.05646)、[VITS](https://arxiv.org/abs/2106.06103)、[wav2vec](https://arxiv.org/pdf/1904.05862)，语音大模型方向模型：[VALL-E](https://www.microsoft.com/en-us/research/project/vall-e-x/)、[Tortoise-TTS](https://github.com/neonbjb/tortoise-tts)、[whisper](https://github.com/openai/whisper)、[HuBERT](https://arxiv.org/abs/2106.07447)、[GPT-SoVITS](https://github.com/RVC-Boss/GPT-SoVITS)，建议对语音感兴趣的同学从一些常用的语音处理库和语音基础概念开始学习，比如常用库librosa, soundfile, [kaldi](https://kaldi-asr.org/), [espnet](https://espnet.github.io/espnet/)等，常用的概念有MFCC (梅尔频率倒谱系数)、F0（基频）、频谱(Spectrogram)、谐波(Harmonics)、声码器(Vocoder)等。你也可以从兴趣出发，比如说Vocaloid，GSV等技术开始学起。此外，[B站UP主皮皮虾勇闯天涯](https://space.bilibili.com/2033385699)的视频是语音入门和语音总体概述非常不错的视频。语音是一个相对没那么卷但是也快要卷到头的方向，如果你热爱语音技术，相信你可以获得很大的收获！
 
+## 3D Vision
+
+3D视觉（3D Vision）关注从二维图像、点云、深度图、网格等数据中恢复和理解三维场景，是CV中从“看见世界”走向“理解空间”的关键方向。它涵盖了三维重建、三维检测、三维语义理解、动态场景建模等多个任务，并与机器人、AR/VR、自动驾驶、虚拟资产生成高度相关。
+
+从任务上看，3D视觉通常可以分为：
+
+* 3D重建：从单视图/多视图/深度图恢复场景的几何结构，经典方法包括SfM（Structure from Motion）、MVS（Multi-View Stereo）、NeRF、3D Gaussian Splatting等。
+
+* 3D理解：对点云、网格、体素数据进行分类、分割、检测和场景理解，常见任务包括3D object detection、3D semantic segmentation、3D instance segmentation等。
+
+* 3D生成：从文本、图像或草图生成3D资产，包括文本到3D、图像到3D、场景生成等。近年来随着扩散模型、隐式表达和高质量数据集的发展，这一方向发展极为迅速。
+
+常见入门资料和网站推荐：
+
+* Open3D 官方文档：https://www.open3d.org/
+
+* PyTorch3D 官方教程：https://pytorch3d.org/
+
+* Kaolin 官方文档：https://kaolin.readthedocs.io/
+
+* NeRF 相关项目：https://github.com/nerfstudio-project/nerfstudio
+
+* 3D Gaussian Splatting 相关实现：https://github.com/graphdeco-inria/gaussian-splatting
+
+* Stanford 3D Vision / Geometry 相关课程（可作为系统基础）：https://web.stanford.edu/class/cs231a/
+
+* 3D视觉和多视图几何的经典资料：https://www.robots.ox.ac.uk/~vgg/ 
+
+* 3D生成与资产建模相关项目合集：https://github.com/awesome-3d-generation/awesome-3d-generation
+
+* 3D数据集与评测资源：https://www.kaggle.com/ （搜索 3D, point cloud, mesh 等）
 ## Embodied AI
 
 具身智能（Embodied AI）旨在通过物理或虚拟实体与环境的动态交互，实现智能系统的自主感知、决策与行动闭环，是AI领域中处于最上层的任务。其核心在于将智能体（Agent）与本体（Embodied Body）深度融合。具身智能 = 本体（物理载体） + 智能体（感知-决策-执行闭环），通过与环境的实时交互实现任务目标，其发展历程可划分为：
@@ -363,6 +394,10 @@ NLP是一个发展迅速且应用广泛的领域，从搜索引擎、智能助�
 * 通用智能体阶段：利用大模型实现跨任务泛化（如人形机器人
 
 与AI其他领域（统称为离身智能（Disembodied AI））的区别在于：离身智能依赖旁观式数据（如ChatGPT、图像分类模型），缺乏物理交互能力，而具身智能：通过主动交互学习（如机器人抓取、视觉导航），需解决物理仿真、多模态对齐等挑战。分为三个模块：本体（物理平台+仿真平台），感知（目标检测，语义分割，视觉-语音导航），交互与学习（规划（world model），学习（例如PPO学习算法））
+
+近两年，具身智能中一个非常关键的趋势是VLA（Vision-Language-Action）范式：将视觉、语言和动作统一到一个大模型中，让智能体能够根据图像观察和自然语言指令直接产出控制动作。
+
+另一个值得关注的方向是WAM（World Action Model，或更广义的world model/action model）：它并不只输出最终动作，而是希望模型同时建模“世界如何变化”和“某个动作会带来什么结果”
 
 投身这个方向需要你对AI各个领域都有一定了解，包括但不限于CV，多模态，RL等，其中CV与多模态的知识用于具身智能中对外界环境的感知，RL等知识用于与环境的交互，规划和学习。这个领域上手难度高且网上缺乏系统的学习资源，可以参考这个github repo进行学习：https://github.com/tianxingchen/Embodied-AI-Guide
 
@@ -416,9 +451,43 @@ AI4Sci是一个快速发展且影响深远的方向，如果你对科学有浓�
 
 ## 相关网站
 
-[ UESTC AI社 指南](https://uestc.feishu.cn/docx/QqQddDFLpoE3D1x2UF2cmjQdn9g?from=from_copylink)    [arxiv](http://arxiv.org)    [paperwithcode](https://paperswithcode.com/)    [kaggle](https://www.kaggle.com/)    [github](http://github.com)    [huggingface](http://huggingface.co)    [魔塔社区](https://www.modelscope.cn/)     [autodl](https://www.autodl.com/)    [fast.ai](http://fast.ai)
+| 网站                                                                       | 简介                                       |
+| ------------------------------------------------------------------------ | ---------------------------------------- |
+| [UESTC AI 社指南](https://uestc.feishu.cn/docx/QqQddDFLpoE3D1x2UF2cmjQdn9g) | UESTC AI 社整理的 AI 学习指南，部分情况下需要登录飞书访问      |
+| [arXiv](https://arxiv.org/)                                              | 计算机科学、人工智能、数学等领域的论文预印本平台                 |
+| [Hugging Face Trending Papers](https://huggingface.co/papers/trending)   | AI 热门论文与代码，原 `paperswithcode.com` 目前跳转至此 |
+| [Kaggle](https://www.kaggle.com/)                                        | 数据科学与机器学习竞赛、数据集、Notebook 和课程平台           |
+| [GitHub](https://github.com/)                                            | 开源代码、AI 项目与学习资料                          |
+| [Hugging Face](https://huggingface.co/)                                  | 模型、数据集、Spaces、论文与开源 AI 社区                |
+| [魔搭社区 ModelScope](https://www.modelscope.cn/)                            | AI 模型、数据集、应用与中文开源模型社区                    |
+| [AutoDL](https://www.autodl.com/)                                        | GPU 云算力与深度学习训练环境                         |
+| [fast.ai](https://www.fast.ai/)                                          | 面向实践的免费深度学习课程与开源工具                       |
+
 
 ## 相关博主
 
-[AndrejKarpathy](https://www.youtube.com/@AndrejKarpathy)    [3blue1brown](https://www.youtube.com/@3blue1brown)    [李沐](https://space.bilibili.com/1567748478)    [deep\_thoughts](https://space.bilibili.com/373596439)    [五道口纳什](https://space.bilibili.com/59807853)    [ZOMI酱](https://space.bilibili.com/517221395)   [文哲](https://space.bilibili.com/472543316)
+| 博主              | 平台       | 主页                                                         |
+| --------------- | -------- | ---------------------------------------------------------- |
+| Andrej Karpathy | YouTube  | [Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy) |
+| 3Blue1Brown     | YouTube  | [3Blue1Brown](https://www.youtube.com/@3blue1brown)        |
+| 跟李沐学 AI         | Bilibili | [李沐](https://space.bilibili.com/1567748478)                |
+| deep_thoughts   | Bilibili | [deep_thoughts](https://space.bilibili.com/373596439)      |
+| 五道口纳什           | Bilibili | [五道口纳什](https://space.bilibili.com/59807853)               |
+| ZOMI 酱          | Bilibili | [ZOMI 酱](https://space.bilibili.com/517221395)             |
+| AI老兵文哲          | Bilibili | [AI老兵文哲](https://space.bilibili.com/472543316)             |
+
+## 相关公众号
+
+| 公众号         | 微信号 / 搜索名         | 主要方向                     | 相关入口                                                 |
+| ----------- | ----------------- | ------------------------ | ---------------------------------------------------- |
+| Datawhale   | `Datawhale`       | AI 系统学习、开源教程、组队学习、LLM 实战 | [Datawhale 官网](https://www.datawhale.cn/)            |
+| AI前线        | `ai-front`        | 大模型、AI 工程实践、技术案例         | [InfoQ 公众号矩阵](https://www.infoq.cn/official/account) |
+| 机器之心        | `almosthuman2014` | AI 前沿、论文解读、机器学习、大模型      | [机器之心](https://www.jiqizhixin.com/)                  |
+| 量子位         | `QbitAI`          | 大模型、AI 产品、科研与产业动态        | [量子位](https://www.qbitai.com/)                       |
+| CVer        | `CVerNews`        | 计算机视觉、深度学习、自动驾驶、论文       | 微信搜索 `CVerNews`                                      |
+| 极市平台        | `extrememart`     | CV 算法、论文、竞赛与工程实践         | [极市平台](https://www.cvmart.net/)                      |
+| PaperWeekly | `paperweekly`     | AI 论文推荐、解读与学术交流          | 微信搜索 `paperweekly`                                   |
+| AI科技评论      | `aitechtalk`      | AI 学术前沿、论文、科研与产业         | 微信搜索 `aitechtalk`                                    |
+| AINLP       | `nlpjob`          | NLP、LLM、机器学习、推荐系统        | 微信搜索 `nlpjob`                                        |
+| 深度学习自然语言处理  | `zenRRan`         | 深度学习、NLP、大模型与论文解读        | 微信搜索 `zenRRan`                                       |
 
